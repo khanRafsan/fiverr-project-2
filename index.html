@@ -1,12 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>project-2</title>
+     <title>Project-3</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="index.css">
 </head>
+
+
 <body>
-     <h1>Hello,Rafsan</h1>
+     <header style="background-color: darkslateblue; ">
+               
+          <div class="container ">
+
+
+
+               <nav class="navbar navbar-expand-sm justify-content-end">
+                    <ul class="navbar-nav p-3 ">
+                         <li class="nav-item">
+                              <a class="nav-link" href="#">Home</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link " href="#">Shop</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#">News</a>
+                         </li>
+                         <li class="nav-item"><a class="nav-link" href="#">Contact</a>
+                         <li class="nav-item ms-3"><a
+                                   href="https://github.com/programming-hero-web-course2/honda-cbr-bootstrap-assignment-khanRafsan"
+                                   target="blank" class=" btn btn-primary">Log in</a></li>
+                    </ul>
+               </nav>
+          </div>
+
+         
+         
+          <!-- honda's banner and title -->
+
+         
+               <section class="container mt-3  ">
+                   <div class="row d-flex flex-direction-column ">
+
+                        <div class="col-sm-6 setup  ">  
+                             <p>This honda has amezing features with automatic controls</p>
+                             <h1 style="color:goldenrod" >Honda CBR 300R</h1>
+                    <p>This honda is made in Bangladesh honda <br>This has been made in 1990 <br> HOnda company has a large factory </p><br>
+                     <button onclick="window.location.href='www.google.com'" class="btn btn-danger">Purchase</button>    
+                     
+               
+               </div>
+               
+               
+               <div class="col-sm-6 setup ">
+                    <img  class="img-fluid w-70" src="./images/header-bike.png" alt="">
+               </div>
+               
+          </div>
+          </section>
+     </header>
+     <!-- this is  the main section which holds pitures of several  bikes -->
+     <main>
+
+          <div class="container mt-5">
+               <div class="container">
+
+                    <h1 class="text-center">Fetured Bikes 2021</h1>
+                    <p style="color:gold;text-align: center;font-weight: 700;">Best bikes collection</p>
+                    <div style="border:2px solid gold;width:50px; margin-left:45% "></div>
+               </div>
+               <div class="container mt-5  ">
+                    <div  class="row row-cols-1 row-cols-sm-1 row-cols-lg-3  setup-2   ">
+                         <div class="col d-flex justify-content-center "><img class="img-fluid m-3 w-75" src="./images/bike-1.png" alt=""></div>
+                         <div class="col d-flex justify-content-center"><img class="img-fluid m-3 w-75" src="./images/bike-2.png" alt=""></div>
+                         <div class="col d-flex justify-content-center"><img class="img-fluid m-3 w-75" src="./images/bike-3.png" alt=""></div>
+                    </div>
+               </div>
+          </div>
+          <div style="height:5rem;margin-top: 5rem;text-align: center;">
+               <h1>Latest Bikes</h1>
+          </div>
+          <section class="container  mt-5  ">
+               <div class="row">
+                    <div class="col-sm-4">
+                         <div class="card ">
+
+
+                              <img src="./images/feature-bike.jpg " class="card-img-top w-75 mx-auto">
+
+                              <div class="card-body">
+                                   <h5 class="card-title">GXSR</h5>
+                                   <p class="card-text">This can run 34kmh.</p>
+                                   <a href="#" class="btn btn-primary">Buy now</a>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-sm-4">
+                         <div class="card">
+                              <img src="./images/feature-bike.jpg" class="card-img-top w-75 mx-auto" alt="">
+                              <div class="card-body">
+                                   <h5 class="card-title">Suzoki</h5>
+                                   <p class="card-text">This bike has a good body</p>
+                                   <a href="#" class="btn btn-primary">Buy now</a>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-sm-4">
+                         <div class="card">
+                              <img src="./images/bike-4.jpg" class="card-img-top w-80 mx-auto" alt="">
+                              <div class="card-body">
+                                   <h5 class="card-titlem ">KTM</h5>
+                                   <p class="card-text">This bike has powerful engine </p>
+                                   <a href="#" class="btn btn-primary ">Buy now</a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+
+               <!-- Clients opinions -->
+
+               <section class="container mt-5">
+                    <div class="container">
+
+                         <h1 style="text-align: center;">Happy <span style="color: goldenrod;">Clients say</span></h1>
+
+                    </div>
+
+                    <div class="container ">
+
+                         <div class="row">
+                              <div class="col-sm-4">
+                                   <div class="card ">
+
+
+                                        <img src="./images/user-1.png " class="card-img-top w-75 mx-auto">
+
+                                        <div class="card-body">
+                                             <p class="card-text">I have buy kTM from this site <br>really, <br> this is
+                                                  an amezing site <br>i am stisfy.</p>
+
+
+
+                                             <h5 style="color:brown;">Ragina miles </h5>
+                                             <p>Banker</p>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-sm-4">
+                                   <div class="card">
+                                        <img src="./images/user-2.png" class="card-img-top w-75 mx-auto" alt="">
+                                        <div class="card-body">
+
+                                             <p class="card-text">This stie is really awesome <br>i have buy a bike from
+                                                  this site <br>my brother was quite happy</p>
+
+                                             <h5 style="color:brown;">Hela</h5>
+                                             <br>
+                                             <p>Job holder</p>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-sm-4">
+                                   <div style="height:100%" class="card">
+                                        <img src="./images/user-3.jpg" class="card-img-top w-75 mx-auto rounded-circle"
+                                             alt="">
+                                        <div class="card-body">
+
+                                             <p class="card-text">This bike has powerful engine </p>
+                                             <h5 style="color:brown;">Jerisha</h5>
+                                             <p>Blogger</p>
+
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+
+
+                    </div>
+
+
+               </section>
+
+               <!-- Question Section -->
+               <section class="container mt-5">
+                    <div class="row d-sm-flex flex-column justify-content-center align-items-center ">
+                         <div class="col-5 ">
+                              <img src="./images/faq.png " class="img-fluid w-75 " alt="">
+                         </div>
+                         <div  class="col-7 mt-5 ">
+                              <div  class="accordion" id="accordionExample ">
+                                   <div class="accordion-item w-70">
+                                        <h2 class="accordion-header" id="headingOne">
+                                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                  data-bs-target="#collapseOne" aria-expanded="true"
+                                                  aria-controls="collapseOne">
+                                                  What are the most important thing should know about riding bike
+                                             </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                             <div class="accordion-body">
+                                                  <strong>This bike is more convenient </strong> <br>
+                                                  <p>Customer riview is quite good </p>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                             <button class="accordion-button collapsed" type="button"
+                                                  data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                  aria-expanded="false" aria-controls="collapseTwo">
+                                                  How can i told if my helmet is old?
+                                             </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                             aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                             <div class="accordion-body">
+                                                  <strong>This is very good question <br> you can send email to our
+                                                  </strong>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                             <button class="accordion-button collapsed" type="button"
+                                                  data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                  aria-expanded="false" aria-controls="collapseThree">
+                                                  My bike is now old condition is it now safe for ridding?
+                                             </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                             aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                             <div class="accordion-body">
+                                                  <strong>YOU should fix an appoinment with us <br> you can talk ours
+                                                       efficent workers</strong>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                             <button class="accordion-button collapsed" type="button"
+                                                  data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                  aria-expanded="false" aria-controls="collapseThree">
+                                                  Do your shop provide discount?
+                                             </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                             aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                             <div class="accordion-body">
+                                                  <strong>yes , we give discount to our Customer <br> we also provide
+                                                       lons</strong>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+
+               </section>
+     </main>
+
+     <!-- Footer section -->
+
+     <section style="background-color: black; height:160px;" class="container-fluid mt-5">
+          <div class="row ">
+
+               <div class="col-8 fotter-style mt-3">
+                    <span style="color: bisque;"> Download License</span> <span
+                         style="color:blanchedalmond">License</span><br>
+                    <span style="color:white">About</span>
+                    <span style="color:white; ">Features</span>
+                    <span style="color:white">Pricing</span>
+                    <span style="color:white">Careers</span>
+                    <span style="color:white">Help</span>
+                    <span style="color:white">Private policy</span>
+                    <span style="color:white">© 2020 bike. all rights reserved</span>
+
+               </div>
+               <div class="col-4">
+                    <h1 style="color: coral;">Get the app</h1>
+                    <div style="background-color:white;text-align: center;">
+                         <i class="fab fa-apple"></i> <span>Download on the app store</span>
+                    </div>
+                    <div style="background-color: white;margin-top: 5px;text-align: center;">
+                         <i class="fas fa-play"></i> <span> Get it on play store</span>
+                    </div>
+
+               </div>
+          </div>
+
+     </section>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+          integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+          crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+          integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+          crossorigin="anonymous"></script>
 </body>
+
 </html>
